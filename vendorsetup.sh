@@ -2,3 +2,4 @@ for combo in $(curl -s  https://raw.githubusercontent.com/AICP/vendor_jenkins/n7
 do
     add_lunch_combo $combo
 done
+add_lunch_combo aicp_suzuran-userdebug
